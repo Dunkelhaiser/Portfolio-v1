@@ -3,6 +3,25 @@ import Section from "./Section";
 
 const projects = [
     {
+        name: "Rechron",
+        description:
+            "Rechron is a free AB loop player to create and share loops from YouTube videos. With it you can create and save loops from any YouTube video, and share them with other people. It has a clean and modern UI with support for light and dark modes. It also has PWA support. Everything from planning and UI design to coding was made by me.",
+        link: "https://rechron.app",
+        image: "/projects/rechron.png",
+        tags: [
+            "TanStack Start",
+            "React",
+            "TypeScript",
+            "YouTube API",
+            "TailwindCSS",
+            "Tanstack Query",
+            "Zod",
+            "Dizzle ORM",
+            "PGLite",
+            "Umami",
+        ],
+    },
+    {
         name: "Maps Modelier",
         description:
             "Was created as my Bachelor's work. It is a desktop application for the creation of interactive political maps. It allows users to create political maps with custom countries, geography, add population, and country data, such as state attributes, political parties, alliances, and more.",

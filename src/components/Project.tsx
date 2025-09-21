@@ -25,11 +25,13 @@ const Project = ({ name, description, link, github, image, tags }: ProjectType) 
                             </a>
                         </Button>
                     )}
-                    <Button size="small" variant="ghost" asChild>
-                        <a href={github} target="_blank" rel="noopener noreferrer" aria-label="GitHub Repo">
-                            GitHub
-                        </a>
-                    </Button>
+                    {github && (
+                        <Button size="small" variant="ghost" asChild>
+                            <a href={github} target="_blank" rel="noopener noreferrer" aria-label="GitHub Repo">
+                                GitHub
+                            </a>
+                        </Button>
+                    )}
                 </div>
             </div>
         </div>
