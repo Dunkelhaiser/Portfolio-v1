@@ -5,6 +5,14 @@ const education = [
     {
         title: "Ivan Franko National University of Lviv",
         subTitle: "Faculty of Electronics and Computer Technologies",
+        duration: "September 2025 - December 2026",
+        description: "Master's degree in Computer Science.",
+        icon: "/icons/education/lnu.png",
+        link: "https://lnu.edu.ua/",
+    },
+    {
+        title: "Ivan Franko National University of Lviv",
+        subTitle: "Faculty of Electronics and Computer Technologies",
         duration: "September 2021 - June 2025",
         description: "I hold a Bachelor's degree in Computer Science.",
         icon: "/icons/education/lnu.png",
